@@ -1,0 +1,31 @@
+public class Faculty { // create faculty class
+    // define two private fields  (name and position)
+    private String name;
+    private String position;
+
+    public Faculty(){ // constructor
+        name = "John Doe";
+        position = "Professor";
+    }
+
+    public Faculty(String name, String position){
+        this.name = name;
+        this.position = position;
+    }
+
+    public String getName(){
+        return name;
+    }
+
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public String getPosition(){
+        return position;
+    }
+
+    public void setPosition(String position){
+        this.name = position;
+    }
+}
